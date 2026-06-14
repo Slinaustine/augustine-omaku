@@ -45,6 +45,8 @@ class Settings(BaseSettings):
     ALLOWED_ORIGINS: List[str] = Field(default_factory=lambda: [
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://augustineomaku.com",
+        "https://www.augustineomaku.com"
     ])
 
     @classmethod
